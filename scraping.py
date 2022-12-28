@@ -127,8 +127,8 @@ def login_and_scrape(username, password):
     session.close()
     # Close the browser
     driver.close()
-username='mkaleem.bscs22seecs'
-password='4IE8bhkp1234!@#$'
+username='USERNAME'
+password='PASS'
 login_and_scrape(username, password)
 
 
