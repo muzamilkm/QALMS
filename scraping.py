@@ -9,7 +9,7 @@ def login_and_scrape(username, password):
     session=requests.Session()
     # Create a new Chrome browser
     chrome_options = webdriver.chrome.options.Options()
-    chrome_options.headless = True          #set the headless option
+    chrome_options.headless = False          #set the headless option
     driver = webdriver.Chrome("chromedriver", options=chrome_options)
 
     # Navigate to the login page
@@ -36,55 +36,68 @@ def login_and_scrape(username, password):
         raise Exception("Login failed")
     
     
-    # Scrape the dashboard page
-    html = driver.page_source
-    soup = BeautifulSoup(html, 'html.parser')
+    with open('timetable.txt', 'w') as f:
+        dashhtml = driver.page_source
+        dashsoup = BeautifulSoup(dashhtml, 'html.parser')
+        classes = dashsoup.find_all(class_="user_heading_content")
+        timetableraw=[]
+        for timet in classes:
+            timetableraw.append(timet.get_text())
+        timetable=timetableraw.split("Today Classes:")
+        # result = "Today Classes".join(timetable[2:])
+            #Iterate over the elements of the list
+        for timet in timetable:
+            f.write(timet +"\n")
+    f.close()
+    
 
     
     #RESULTS DATA:
-    anchors=soup.find_all('a',href=re.compile(r'results/id/'))
+    anchors=dashsoup.find_all('a',href=re.compile(r'results/id/'))
     all_links=[]
     for link in anchors:
         if(link.get('href') != '#'):
             linkT="https://qalam.nust.edu.pk"+str(link.get('href'))
             all_links.append(linkT)
-    for link in all_links:
-
-        # Send an HTTP request to the URL of the current link
-        response2 = session.get(link,cookies=auth_keys)
-        # Parse the response using Beautiful Soup
-        # print(response2.text)
-        soup = BeautifulSoup(response2.text, 'html.parser')
-        #Find the table
-        table = soup.find('table')
-        data=[] #Array to store all the data
-        #Find all the rows in the table
-        if table!='None':
-            rows = table.find_all('tr')
-        header_data=[]
-        cell_data=[]
-        #Print the contents of each cell of every row
-        for row in rows:
-            headers=row.find_all('th')
-            cells=row.find_all('td')
-            #header_data = [header.get_text() for header in headers]
-            #cell_data = [cell.get_text() for cell in cells]        
-            for header in headers:
-                header_data.append(header.get_text())
-            for cell in cells:
-                cell_data.append(cell.get_text()) 
-        data.append(header_data)
-        data.append(cell_data)
-        # Open a new file in write mode
+    # Open a new file in write mode
     with open('scraped_data.txt', 'w') as f:
-    # Iterate over the elements of the list
-        for row in data:
-            for element in row:
-                f.write(element + "\t")
-            f.write("\n")
+        for link in all_links:
+
+         # Send an HTTP request to the URL of the current link
+            response2 = session.get(link,cookies=auth_keys)
+            # Parse the response using Beautiful Soup
+            # print(response2.text)
+            soup = BeautifulSoup(response2.text, 'html.parser')
+            #Find the table
+            table = soup.find('table')
+            data=[] #Array to store all the data
+            #Find all the rows in the table
+            if table!='None':
+                rows = table.find_all('tr')
+            header_data=[]
+            cell_data=[]
+            #Print the contents of each cell of every row
+            for row in rows:
+                headers=row.find_all('th')
+                cells=row.find_all('td')
+                #header_data = [header.get_text() for header in headers]
+                #cell_data = [cell.get_text() for cell in cells]        
+                for header in headers:
+                    header_data.append(header.get_text())
+                for cell in cells:
+                    cell_data.append(cell.get_text()) 
+            data.append(header_data)
+            data.append(cell_data)
+            
+    
+        # Iterate over the elements of the list
+            for row in data:
+                for element in row:
+                    f.write(element + "\t")
+                f.write("\n")
 
         # print(soup.get_text())
-        
+    f.close()    
     #ATTENDANCE DATA:
     html2=session.get("https://qalam.nust.edu.pk/student/attendance",cookies=auth_keys)
     attendancesoup=BeautifulSoup(html2.text, 'html.parser')
@@ -105,12 +118,14 @@ def login_and_scrape(username, password):
         #Iterate over the elements of the list
             for element in attd_data:
                 f.write(element +"\n")
-             
+    f.close()         
     #  Close the session
     session.close()
     # Close the browser
     driver.close()
-
+username='mkaleem.bscs22seecs'
+password='4IE8bhkp1234!@#$'
+login_and_scrape(username, password)
 
 
 # import requests
