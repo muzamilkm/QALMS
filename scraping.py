@@ -35,7 +35,7 @@ def login_and_scrape(username, password):
     if current_url != "https://qalam.nust.edu.pk/student/dashboard":
         raise Exception("Login failed")
     
-    
+    #Scrape the dashboard for the day's classes
     with open('timetable.txt', 'w') as f:
         dashhtml = driver.page_source
         dashsoup = BeautifulSoup(dashhtml, 'html.parser')
@@ -43,11 +43,15 @@ def login_and_scrape(username, password):
         timetableraw=[]
         for timet in classes:
             timetableraw.append(timet.get_text())
-        timetable=timetableraw.split("Today Classes:")
+        string = '\n'.join(timetableraw)
+        # timetable=timetableraw.split("Today Classes:")
         # result = "Today Classes".join(timetable[2:])
+        timetable = string.split('Today Classes:')
+        result='\n'.join(timetable[1:])
             #Iterate over the elements of the list
-        for timet in timetable:
-            f.write(timet +"\n")
+        f.write(result)
+        # for timet in timetable:
+        # f.write(timet +"\n")
     f.close()
     
 

@@ -331,16 +331,6 @@ Assessment Type	Obtained Percentage	Assessment	Max Mark	Obtained Marks	Class Ave
                                                                                     	
                                                                                         70.00
                                                                                     	
-                                                                                        Assignment 3
-                                                                                    	
-                                                                                        10.0
-                                                                                    	
-                                                                                        9.00
-                                                                                    	
-                                                                                        9.06
-                                                                                    	
-                                                                                        90.00
-                                                                                    	
                                                                                         Assignment 2
                                                                                     	
                                                                                         10.0
@@ -350,6 +340,16 @@ Assessment Type	Obtained Percentage	Assessment	Max Mark	Obtained Marks	Class Ave
                                                                                         8.19
                                                                                     	
                                                                                         87.50
+                                                                                    	
+                                                                                        Assignment 3
+                                                                                    	
+                                                                                        10.0
+                                                                                    	
+                                                                                        9.00
+                                                                                    	
+                                                                                        9.06
+                                                                                    	
+                                                                                        90.00
                                                                                     	
 
                                                                                     Final
@@ -485,6 +485,16 @@ Assessment Type	Obtained Percentage	Assessment	Max Mark	Obtained Marks	Class Ave
                                                                                 
 	
 	
+                                                                                        Quiz-I
+                                                                                    	
+                                                                                        10.0
+                                                                                    	
+                                                                                        8.50
+                                                                                    	
+                                                                                        6.66
+                                                                                    	
+                                                                                        85.00
+                                                                                    	
                                                                                         Quiz-II
                                                                                     	
                                                                                         10.0
@@ -504,14 +514,4 @@ Assessment Type	Obtained Percentage	Assessment	Max Mark	Obtained Marks	Class Ave
                                                                                         5.65
                                                                                     	
                                                                                         65.00
-                                                                                    	
-                                                                                        Quiz-I
-                                                                                    	
-                                                                                        10.0
-                                                                                    	
-                                                                                        8.50
-                                                                                    	
-                                                                                        6.66
-                                                                                    	
-                                                                                        85.00
                                                                                     	
