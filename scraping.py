@@ -111,26 +111,81 @@ def login_and_scrape(username, password):
         if(link.get('href') != '#'):
             linkT="https://qalam.nust.edu.pk"+str(link.get('href'))
             attd_links.append(linkT)
-    for link in attd_links:
-        attendance = session.get(link,cookies=auth_keys)
-        attendancesoup=BeautifulSoup(attendance.text,'html.parser')
-        elements=attendancesoup.find_all(class_="md-color-blue-grey-900")
-        attd_data=[]
-        for element in elements:
-            attd_data.append(element.get_text())
-        with open('attd_data.txt', 'w') as f:
-        #Iterate over the elements of the list
-            for element in attd_data:
-                f.write(element +"\n")
+    with open('attd_data.txt', 'w') as f:
+        for link in attd_links:
+            attendance = session.get(link,cookies=auth_keys)
+            attendancesoup=BeautifulSoup(attendance.text,'html.parser')
+            elements=attendancesoup.find_all(class_="md-color-blue-grey-900")
+            attd_data=[]
+            for element in elements:
+                attd_data.append(element.get_text())
+            #Iterate over the elements of the list
+                for element in attd_data:
+                    f.write(element +"\n")
     f.close()         
     #  Close the session
     session.close()
     # Close the browser
     driver.close()
-username='USERNAME'
-password='PASS'
-login_and_scrape(username, password)
 
+def lms_scrape(luser, lpass):
+    try:
+        chrome_options = webdriver.chrome.options.Options()
+        chrome_options.headless = True          #set the headless option
+        driver = webdriver.Chrome("chromedriver", options=chrome_options)
+        LMSsession=requests.Session()
+        # head to LMS login page
+        driver.get("https://lms.nust.edu.pk/portal/login/index.php")
+        # find username/email field and send the username itself to the input field
+        #print(username)
+        driver.find_element(By.ID, 'username').send_keys(username)
+        # find password input field and insert password as well
+        #print(password)
+        driver.find_element(By.ID, 'password').send_keys(password)
+        # click login button
+        driver.find_element(By.ID,"loginbtn").click()
+
+        # wait the ready state to be complete
+        WebDriverWait(driver=driver, timeout=10).until(
+            lambda x: x.execute_script("return document.readyState === 'complete'")
+        )
+        driver.implicitly_wait(20)
+        error_message = "Incorrect username or password."
+        auth_keysLMS = {c["name"]: c["value"] for c in driver.get_cookies()}
+        currentURL = driver.current_url
+        if currentURL == "https://lms.nust.edu.pk/portal/my/":
+            print("Login successful")
+        else:
+            print("Login failed")
+        lmshtml=LMSsession.get("https://lms.nust.edu.pk/portal/?redirect=0",cookies=auth_keysLMS)
+        lmssoup=BeautifulSoup(lmshtml.text,'html.parser')
+        #anchors = soup.find_all('a', class_=lambda c: c != 'excluded-class')
+        pattern = re.compile(r'portal/course/view')
+        anchors=lmssoup.find_all('a',href=re.compile(r'portal/course/view'))
+        # anchors = lmssoup.find_all('a', href=pattern, href=lambda x: x != 'https://lms.nust.edu.pk/portal/course/view.php?id=40023')
+        course_links=[]
+        for link in anchors:
+            if(link.get('href') != '#'):
+                course_links.append(link)
+        for link in course_links:
+            lms = LMSsession.get(link,cookies=auth_keysLMS)
+            coursesoup=BeautifulSoup(lms.text,'html.parser')
+            coursetitle=coursesoup.find_all(class_="page-header-headings")
+            print(coursetitle.get_text())
+            elements=coursesoup.find_all('a',class_='col-md-12 align-self-center')
+    except Exception as e:
+        # This block will be executed if an error occurs
+        print(f'An error occurred: {e}')
+        
+
+    LMSsession.close()
+    driver.close()
+username='mkaleem.bscs22seecs'
+password='4IE8bhkp1234!@#$'
+luser='USER'
+lpass='PASS'
+login_and_scrape(username, password)
+# lms_scrape(luser,lpass)
 
 # import requests
 # from bs4 import BeautifulSoup
