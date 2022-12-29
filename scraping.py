@@ -90,7 +90,12 @@ def login_and_scrape(username, password):
                     f.write(cell.get_text()+"\n")
             data.append(header_data)
             data.append(cell_data)
-            
+        
+    # Iterate over the elements of the list
+        for row in data:
+            for element in row:
+                f.write(element + "\t")
+            f.write("\n")
     
         # Iterate over the elements of the list
             # for row in data:
