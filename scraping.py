@@ -44,14 +44,11 @@ def login_and_scrape(username, password):
         for timet in classes:
             timetableraw.append(timet.get_text())
         string = '\n'.join(timetableraw)
-        # timetable=timetableraw.split("Today Classes:")
-        # result = "Today Classes".join(timetable[2:])
         timetable = string.split('Today Classes:')
         result='\n'.join(timetable[1:])
             #Iterate over the elements of the list
         f.write(result)
         # for timet in timetable:
-        # f.write(timet +"\n")
     f.close()
     
 
@@ -70,7 +67,6 @@ def login_and_scrape(username, password):
          # Send an HTTP request to the URL of the current link
             response2 = session.get(link,cookies=auth_keys)
             # Parse the response using Beautiful Soup
-            # print(response2.text)
             soup = BeautifulSoup(response2.text, 'html.parser')
             #Find the table
             table = soup.find('table')
@@ -88,17 +84,19 @@ def login_and_scrape(username, password):
                 #cell_data = [cell.get_text() for cell in cells]        
                 for header in headers:
                     header_data.append(header.get_text())
+                    f.write(header.get_text()+"\n")
                 for cell in cells:
                     cell_data.append(cell.get_text()) 
+                    f.write(cell.get_text()+"\n")
             data.append(header_data)
             data.append(cell_data)
             
     
         # Iterate over the elements of the list
-            for row in data:
-                for element in row:
-                    f.write(element + "\t")
-                f.write("\n")
+            # for row in data:
+            #     for element in row:
+            #         f.write(element + "\t")
+            #     f.write("\n")
 
         # print(soup.get_text())
     f.close()    
@@ -129,54 +127,67 @@ def login_and_scrape(username, password):
     driver.close()
 
 def lms_scrape(luser, lpass):
-    try:
-        chrome_options = webdriver.chrome.options.Options()
-        chrome_options.headless = True          #set the headless option
-        driver = webdriver.Chrome("chromedriver", options=chrome_options)
-        LMSsession=requests.Session()
-        # head to LMS login page
-        driver.get("https://lms.nust.edu.pk/portal/login/index.php")
-        # find username/email field and send the username itself to the input field
-        #print(username)
-        driver.find_element(By.ID, 'username').send_keys(username)
-        # find password input field and insert password as well
-        #print(password)
-        driver.find_element(By.ID, 'password').send_keys(password)
-        # click login button
-        driver.find_element(By.ID,"loginbtn").click()
+    chrome_options = webdriver.chrome.options.Options()
+    chrome_options.headless = True          #set the headless option
+    driver = webdriver.Chrome("chromedriver", options=chrome_options)
+    LMSsession=requests.Session()
+    # head to LMS login page
+    driver.get("https://lms.nust.edu.pk/portal/login/index.php")
+    # find username/email field and send the username itself to the input field
+    #print(username)
+    driver.find_element(By.ID, 'username').send_keys(username)
+    # find password input field and insert password as well
+    #print(password)
+    driver.find_element(By.ID, 'password').send_keys(password)
+    # click login button
+    driver.find_element(By.ID,"loginbtn").click()
+    # try:
 
-        # wait the ready state to be complete
-        WebDriverWait(driver=driver, timeout=10).until(
-            lambda x: x.execute_script("return document.readyState === 'complete'")
-        )
-        driver.implicitly_wait(20)
-        error_message = "Incorrect username or password."
-        auth_keysLMS = {c["name"]: c["value"] for c in driver.get_cookies()}
-        currentURL = driver.current_url
-        if currentURL == "https://lms.nust.edu.pk/portal/my/":
-            print("Login successful")
-        else:
-            print("Login failed")
-        lmshtml=LMSsession.get("https://lms.nust.edu.pk/portal/?redirect=0",cookies=auth_keysLMS)
-        lmssoup=BeautifulSoup(lmshtml.text,'html.parser')
-        #anchors = soup.find_all('a', class_=lambda c: c != 'excluded-class')
-        pattern = re.compile(r'portal/course/view')
-        anchors=lmssoup.find_all('a',href=re.compile(r'portal/course/view'))
-        # anchors = lmssoup.find_all('a', href=pattern, href=lambda x: x != 'https://lms.nust.edu.pk/portal/course/view.php?id=40023')
-        course_links=[]
-        for link in anchors:
-            if(link.get('href') != '#'):
-                course_links.append(link)
+    # wait the ready state to be complete
+    WebDriverWait(driver=driver, timeout=10).until(
+        lambda x: x.execute_script("return document.readyState === 'complete'")
+    )
+    # driver.implicitly_wait(30)
+    error_message = "Incorrect username or password."
+    auth_keysLMS = {c["name"]: c["value"] for c in driver.get_cookies()}
+    currentURL = driver.current_url
+    
+    if currentURL == "https://lms.nust.edu.pk/portal/my/":
+        print("Login successful")
+    else:
+        print("Login failed")
+    lmshtml=LMSsession.get("https://lms.nust.edu.pk/portal/?redirect=0",cookies=auth_keysLMS)
+    lmssoup=BeautifulSoup(lmshtml.text,'html.parser')
+    anchors=lmssoup.find_all('a',href=re.compile(r'portal/course/view'))
+    course_links=[]
+    for link in anchors:
+        # if(link.get('href') != '#'):
+        course_links.append(link.get('href'))
+    # print(course_links)
+    with open('courseteacherinfo.txt', 'w') as f:
         for link in course_links:
             lms = LMSsession.get(link,cookies=auth_keysLMS)
             coursesoup=BeautifulSoup(lms.text,'html.parser')
             coursetitle=coursesoup.find_all(class_="page-header-headings")
-            print(coursetitle.get_text())
-            elements=coursesoup.find_all('a',class_='col-md-12 align-self-center')
-    except Exception as e:
-        # This block will be executed if an error occurs
-        print(f'An error occurred: {e}')
-        
+            coursetitlelist=[]
+            for title in coursetitle:
+                coursetitlelist.append(title)
+                f.write(title.get_text() + "\n")
+                searchprof=coursesoup.find_all('div',class_='col-md-12 align-self-center')
+                for prof in searchprof:
+                    teacherprof=prof.find_all('a',href=re.compile(r'portal/user/profile'))
+                    teacherprofs=[]
+                    for prof in teacherprof:
+                        teacherprofs.append(prof.get_text())
+                        f.write(prof.get_text()+"\n")
+                        emailsearch=LMSsession.get(prof.get('href'),cookies=auth_keysLMS)
+                        emailsoup=BeautifulSoup(emailsearch.text,'html.parser')
+                        emails=emailsoup.find_all('a',href=re.compile(r'mailto:%'))
+                        emaillist=[]
+                        for email in emails:
+                            emaillist.append(email)
+                            f.write(email.get_text() + "\n")
+    f.close()
 
     LMSsession.close()
     driver.close()

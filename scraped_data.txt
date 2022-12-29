@@ -1,517 +1,873 @@
-Assessment Type	Obtained Percentage	Assessment	Max Mark	Obtained Marks	Class Average	Percentage	Assessment	Max Mark	Obtained Marks	Class Average	Percentage	Assessment	Max Mark	Obtained Marks	Class Average	Percentage	Assessment	Max Mark	Obtained Marks	Class Average	Percentage	
+Assessment Type
+Obtained Percentage
 
 
                                                                                     One Hour Test/Mid Term
                                                                                 
-	
-	
+
+
+
+Assessment
+Max Mark
+Obtained Marks
+Class Average
+Percentage
+
                                                                                         Mid-Term
-                                                                                    	
+                                                                                    
+
                                                                                         100.0
-                                                                                    	
+                                                                                    
+
                                                                                         76.50
-                                                                                    	
+                                                                                    
+
                                                                                         78.11
-                                                                                    	
+                                                                                    
+
                                                                                         76.50
-                                                                                    	
+                                                                                    
+
 
                                                                                     Assignment
                                                                                 
-	
-	
+
+
+
+Assessment
+Max Mark
+Obtained Marks
+Class Average
+Percentage
+
                                                                                         Assignment
-                                                                                    	
+                                                                                    
+
                                                                                         10.0
-                                                                                    	
+                                                                                    
+
                                                                                         0.00
-                                                                                    	
+                                                                                    
+
                                                                                         0.00
-                                                                                    	
+                                                                                    
+
                                                                                         0.00
-                                                                                    	
+                                                                                    
+
 
                                                                                     Quiz
                                                                                 
-	
-	
+
+
+
+Assessment
+Max Mark
+Obtained Marks
+Class Average
+Percentage
+
                                                                                         Quiz
-                                                                                    	
+                                                                                    
+
                                                                                         10.0
-                                                                                    	
+                                                                                    
+
                                                                                         0.00
-                                                                                    	
+                                                                                    
+
                                                                                         0.00
-                                                                                    	
+                                                                                    
+
                                                                                         0.00
-                                                                                    	
+                                                                                    
+
 
                                                                                     Final
                                                                                 
-	
-	
+
+
+
+Assessment
+Max Mark
+Obtained Marks
+Class Average
+Percentage
+
                                                                                         Final
-                                                                                    	
+                                                                                    
+
                                                                                         100.0
-                                                                                    	
+                                                                                    
+
                                                                                         0.00
-                                                                                    	
+                                                                                    
+
                                                                                         0.00
-                                                                                    	
+                                                                                    
+
                                                                                         0.00
-                                                                                    	
-Assessment Type	Obtained Percentage	Assessment	Max Mark	Obtained Marks	Class Average	Percentage	Assessment	Max Mark	Obtained Marks	Class Average	Percentage	Assessment	Max Mark	Obtained Marks	Class Average	Percentage	Assessment	Max Mark	Obtained Marks	Class Average	Percentage	
+                                                                                    
+Assessment Type
+Obtained Percentage
 
 
                                                                                     Quiz
                                                                                 
-	
-	
+
+
+
+Assessment
+Max Mark
+Obtained Marks
+Class Average
+Percentage
+
                                                                                         Q2
-                                                                                    	
+                                                                                    
+
                                                                                         10.0
-                                                                                    	
+                                                                                    
+
                                                                                         10.00
-                                                                                    	
+                                                                                    
+
                                                                                         7.05
-                                                                                    	
+                                                                                    
+
                                                                                         100.00
-                                                                                    	
+                                                                                    
+
                                                                                         Q1
-                                                                                    	
+                                                                                    
+
                                                                                         10.0
-                                                                                    	
+                                                                                    
+
                                                                                         4.00
-                                                                                    	
+                                                                                    
+
                                                                                         7.55
-                                                                                    	
+                                                                                    
+
                                                                                         40.00
-                                                                                    	
+                                                                                    
+
 
                                                                                     One Hour Test/Mid Term
                                                                                 
-	
-	
+
+
+
+Assessment
+Max Mark
+Obtained Marks
+Class Average
+Percentage
+
                                                                                         MSE
-                                                                                    	
+                                                                                    
+
                                                                                         75.0
-                                                                                    	
+                                                                                    
+
                                                                                         59.00
-                                                                                    	
+                                                                                    
+
                                                                                         53.12
-                                                                                    	
+                                                                                    
+
                                                                                         78.67
-                                                                                    	
+                                                                                    
+
 
                                                                                     Assignment
                                                                                 
-	
-	
+
+
+
+Assessment
+Max Mark
+Obtained Marks
+Class Average
+Percentage
+
                                                                                         Assignment
-                                                                                    	
+                                                                                    
+
                                                                                         10.0
-                                                                                    	
+                                                                                    
+
                                                                                         10.00
-                                                                                    	
+                                                                                    
+
                                                                                         8.48
-                                                                                    	
+                                                                                    
+
                                                                                         100.00
-                                                                                    	
+                                                                                    
+
 
                                                                                     Final
                                                                                 
-	
-	
+
+
+
+Assessment
+Max Mark
+Obtained Marks
+Class Average
+Percentage
+
                                                                                         Final
-                                                                                    	
+                                                                                    
+
                                                                                         100.0
-                                                                                    	
+                                                                                    
+
                                                                                         0.00
-                                                                                    	
+                                                                                    
+
                                                                                         0.00
-                                                                                    	
+                                                                                    
+
                                                                                         0.00
-                                                                                    	
-Assessment Type	Obtained Percentage	Assessment	Max Mark	Obtained Marks	Class Average	Percentage	Assessment	Max Mark	Obtained Marks	Class Average	Percentage	Assessment	Max Mark	Obtained Marks	Class Average	Percentage	Assessment	Max Mark	Obtained Marks	Class Average	Percentage	
+                                                                                    
+Assessment Type
+Obtained Percentage
 
 
                                                                                     One Hour Test/Mid Term
                                                                                 
-	
-	
+
+
+
+Assessment
+Max Mark
+Obtained Marks
+Class Average
+Percentage
+
                                                                                         Midterm Exam
-                                                                                    	
+                                                                                    
+
                                                                                         60.0
-                                                                                    	
+                                                                                    
+
                                                                                         47.50
-                                                                                    	
+                                                                                    
+
                                                                                         38.77
-                                                                                    	
+                                                                                    
+
                                                                                         79.17
-                                                                                    	
+                                                                                    
+
 
                                                                                     Assignment
                                                                                 
-	
-	
+
+
+
+Assessment
+Max Mark
+Obtained Marks
+Class Average
+Percentage
+
                                                                                         Assignment 1
-                                                                                    	
+                                                                                    
+
                                                                                         10.0
-                                                                                    	
+                                                                                    
+
                                                                                         8.50
-                                                                                    	
+                                                                                    
+
                                                                                         8.44
-                                                                                    	
+                                                                                    
+
                                                                                         85.00
-                                                                                    	
+                                                                                    
+
                                                                                         Assignment 2
-                                                                                    	
+                                                                                    
+
                                                                                         10.0
-                                                                                    	
+                                                                                    
+
                                                                                         9.00
-                                                                                    	
+                                                                                    
+
                                                                                         8.90
-                                                                                    	
+                                                                                    
+
                                                                                         90.00
-                                                                                    	
+                                                                                    
+
                                                                                         Class Presentations
-                                                                                    	
+                                                                                    
+
                                                                                         10.0
-                                                                                    	
+                                                                                    
+
                                                                                         0.00
-                                                                                    	
+                                                                                    
+
                                                                                         0.00
-                                                                                    	
+                                                                                    
+
                                                                                         0.00
-                                                                                    	
+                                                                                    
+
 
                                                                                     Quiz
                                                                                 
-	
-	
+
+
+
+Assessment
+Max Mark
+Obtained Marks
+Class Average
+Percentage
+
                                                                                         Quiz 1
-                                                                                    	
+                                                                                    
+
                                                                                         10.0
-                                                                                    	
+                                                                                    
+
                                                                                         9.50
-                                                                                    	
+                                                                                    
+
                                                                                         5.75
-                                                                                    	
+                                                                                    
+
                                                                                         95.00
-                                                                                    	
+                                                                                    
+
                                                                                         Quiz 2
-                                                                                    	
+                                                                                    
+
                                                                                         10.0
-                                                                                    	
+                                                                                    
+
                                                                                         9.50
-                                                                                    	
+                                                                                    
+
                                                                                         7.41
-                                                                                    	
+                                                                                    
+
                                                                                         95.00
-                                                                                    	
+                                                                                    
+
                                                                                         Quiz 3
-                                                                                    	
+                                                                                    
+
                                                                                         10.0
-                                                                                    	
+                                                                                    
+
                                                                                         3.00
-                                                                                    	
+                                                                                    
+
                                                                                         4.46
-                                                                                    	
+                                                                                    
+
                                                                                         30.00
-                                                                                    	
+                                                                                    
+
                                                                                         Quiz 4
-                                                                                    	
+                                                                                    
+
                                                                                         10.0
-                                                                                    	
+                                                                                    
+
                                                                                         0.00
-                                                                                    	
+                                                                                    
+
                                                                                         0.00
-                                                                                    	
+                                                                                    
+
                                                                                         0.00
-                                                                                    	
+                                                                                    
+
 
                                                                                     Final
                                                                                 
-	
-	
+
+
+
+Assessment
+Max Mark
+Obtained Marks
+Class Average
+Percentage
+
                                                                                         Final
-                                                                                    	
+                                                                                    
+
                                                                                         100.0
-                                                                                    	
+                                                                                    
+
                                                                                         0.00
-                                                                                    	
+                                                                                    
+
                                                                                         0.00
-                                                                                    	
+                                                                                    
+
                                                                                         0.00
-                                                                                    	
-Assessment Type	Obtained Percentage	Assessment	Max Mark	Obtained Marks	Class Average	Percentage	Assessment	Max Mark	Obtained Marks	Class Average	Percentage	Assessment	Max Mark	Obtained Marks	Class Average	Percentage	Assessment	Max Mark	Obtained Marks	Class Average	Percentage	
+                                                                                    
+Assessment Type
+Obtained Percentage
 
 
                                                                                     Quiz
                                                                                 
-	
-	
+
+
+
+Assessment
+Max Mark
+Obtained Marks
+Class Average
+Percentage
+
                                                                                         Quiz 1
-                                                                                    	
+                                                                                    
+
                                                                                         10.0
-                                                                                    	
+                                                                                    
+
                                                                                         9.00
-                                                                                    	
+                                                                                    
+
                                                                                         8.10
-                                                                                    	
+                                                                                    
+
                                                                                         90.00
-                                                                                    	
+                                                                                    
+
                                                                                         Quiz 2
-                                                                                    	
+                                                                                    
+
                                                                                         10.0
-                                                                                    	
+                                                                                    
+
                                                                                         5.00
-                                                                                    	
+                                                                                    
+
                                                                                         7.10
-                                                                                    	
+                                                                                    
+
                                                                                         50.00
-                                                                                    	
+                                                                                    
+
                                                                                         Quiz 3
-                                                                                    	
+                                                                                    
+
                                                                                         10.0
-                                                                                    	
+                                                                                    
+
                                                                                         9.00
-                                                                                    	
+                                                                                    
+
                                                                                         6.34
-                                                                                    	
+                                                                                    
+
                                                                                         90.00
-                                                                                    	
+                                                                                    
+
                                                                                         Quiz 4
-                                                                                    	
+                                                                                    
+
                                                                                         10.0
-                                                                                    	
+                                                                                    
+
                                                                                         10.00
-                                                                                    	
+                                                                                    
+
                                                                                         7.41
-                                                                                    	
+                                                                                    
+
                                                                                         100.00
-                                                                                    	
+                                                                                    
+
 
                                                                                     One Hour Test/Mid Term
                                                                                 
-	
-	
+
+
+
+Assessment
+Max Mark
+Obtained Marks
+Class Average
+Percentage
+
                                                                                         MSE
-                                                                                    	
+                                                                                    
+
                                                                                         60.0
-                                                                                    	
+                                                                                    
+
                                                                                         43.50
-                                                                                    	
+                                                                                    
+
                                                                                         40.61
-                                                                                    	
+                                                                                    
+
                                                                                         72.50
-                                                                                    	
+                                                                                    
+
 
                                                                                     Assignment
                                                                                 
-	
-	
-                                                                                        Assignment 2
-                                                                                    	
-                                                                                        10.0
-                                                                                    	
-                                                                                        8.75
-                                                                                    	
-                                                                                        8.19
-                                                                                    	
-                                                                                        87.50
-                                                                                    	
+
+
+
+Assessment
+Max Mark
+Obtained Marks
+Class Average
+Percentage
+
                                                                                         Assignment 1
-                                                                                    	
+                                                                                    
+
                                                                                         10.0
-                                                                                    	
+                                                                                    
+
                                                                                         9.60
-                                                                                    	
+                                                                                    
+
                                                                                         8.93
-                                                                                    	
+                                                                                    
+
                                                                                         96.00
-                                                                                    	
-                                                                                        Assignment 3
-                                                                                    	
-                                                                                        10.0
-                                                                                    	
-                                                                                        9.00
-                                                                                    	
-                                                                                        9.06
-                                                                                    	
-                                                                                        90.00
-                                                                                    	
+                                                                                    
+
                                                                                         Assignment 4
-                                                                                    	
+                                                                                    
+
                                                                                         10.0
-                                                                                    	
+                                                                                    
+
                                                                                         7.00
-                                                                                    	
+                                                                                    
+
                                                                                         8.07
-                                                                                    	
+                                                                                    
+
                                                                                         70.00
-                                                                                    	
+                                                                                    
+
+                                                                                        Assignment 2
+                                                                                    
+
+                                                                                        10.0
+                                                                                    
+
+                                                                                        8.75
+                                                                                    
+
+                                                                                        8.19
+                                                                                    
+
+                                                                                        87.50
+                                                                                    
+
+                                                                                        Assignment 3
+                                                                                    
+
+                                                                                        10.0
+                                                                                    
+
+                                                                                        9.00
+                                                                                    
+
+                                                                                        9.06
+                                                                                    
+
+                                                                                        90.00
+                                                                                    
+
 
                                                                                     Final
                                                                                 
-	
-	
+
+
+
+Assessment
+Max Mark
+Obtained Marks
+Class Average
+Percentage
+
                                                                                         Final
-                                                                                    	
+                                                                                    
+
                                                                                         100.0
-                                                                                    	
+                                                                                    
+
                                                                                         0.00
-                                                                                    	
+                                                                                    
+
                                                                                         0.00
-                                                                                    	
+                                                                                    
+
                                                                                         0.00
-                                                                                    	
-Assessment Type	Obtained Percentage	Assessment	Max Mark	Obtained Marks	Class Average	Percentage	Assessment	Max Mark	Obtained Marks	Class Average	Percentage	Assessment	Max Mark	Obtained Marks	Class Average	Percentage	Assessment	Max Mark	Obtained Marks	Class Average	Percentage	
+                                                                                    
+Assessment Type
+Obtained Percentage
 
 
                                                                                     One Hour Test/Mid Term
                                                                                 
-	
-	
+
+
+
+Assessment
+Max Mark
+Obtained Marks
+Class Average
+Percentage
+
                                                                                         Mid Term
-                                                                                    	
+                                                                                    
+
                                                                                         60.0
-                                                                                    	
+                                                                                    
+
                                                                                         44.00
-                                                                                    	
+                                                                                    
+
                                                                                         45.39
-                                                                                    	
+                                                                                    
+
                                                                                         73.33
-                                                                                    	
+                                                                                    
+
 
                                                                                     Assignment
                                                                                 
-	
-	
+
+
+
+Assessment
+Max Mark
+Obtained Marks
+Class Average
+Percentage
+
                                                                                         AsDocumentary Review
-                                                                                    	
+                                                                                    
+
                                                                                         10.0
-                                                                                    	
+                                                                                    
+
                                                                                         0.00
-                                                                                    	
+                                                                                    
+
                                                                                         0.00
-                                                                                    	
+                                                                                    
+
                                                                                         0.00
-                                                                                    	
+                                                                                    
+
 
                                                                                     Quiz
                                                                                 
-	
-	
+
+
+
+Assessment
+Max Mark
+Obtained Marks
+Class Average
+Percentage
+
                                                                                         Quiz 1
-                                                                                    	
+                                                                                    
+
                                                                                         10.0
-                                                                                    	
+                                                                                    
+
                                                                                         0.00
-                                                                                    	
+                                                                                    
+
                                                                                         0.00
-                                                                                    	
+                                                                                    
+
                                                                                         0.00
-                                                                                    	
+                                                                                    
+
 
                                                                                     Final
                                                                                 
-	
-	
+
+
+
+Assessment
+Max Mark
+Obtained Marks
+Class Average
+Percentage
+
                                                                                         Final
-                                                                                    	
+                                                                                    
+
                                                                                         100.0
-                                                                                    	
+                                                                                    
+
                                                                                         0.00
-                                                                                    	
+                                                                                    
+
                                                                                         0.00
-                                                                                    	
+                                                                                    
+
                                                                                         0.00
-                                                                                    	
-Assessment Type	Obtained Percentage	Assessment	Max Mark	Obtained Marks	Class Average	Percentage	Assessment	Max Mark	Obtained Marks	Class Average	Percentage	Assessment	Max Mark	Obtained Marks	Class Average	Percentage	
+                                                                                    
+Assessment Type
+Obtained Percentage
 
 
                                                                                     One Hour Test/Mid Term
                                                                                 
-	
-	
-                                                                                        Midterm-CLO-I
-                                                                                    	
-                                                                                        30.0
-                                                                                    	
-                                                                                        23.00
-                                                                                    	
-                                                                                        21.89
-                                                                                    	
-                                                                                        76.67
-                                                                                    	
-                                                                                        Midterm
-                                                                                    	
-                                                                                        60.0
-                                                                                    	
-                                                                                        45.00
-                                                                                    	
-                                                                                        41.62
-                                                                                    	
-                                                                                        75.00
-                                                                                    	
+
+
+
+Assessment
+Max Mark
+Obtained Marks
+Class Average
+Percentage
+
                                                                                         Midterm-CLO-III
-                                                                                    	
+                                                                                    
+
                                                                                         30.0
-                                                                                    	
+                                                                                    
+
                                                                                         22.00
-                                                                                    	
+                                                                                    
+
                                                                                         19.62
-                                                                                    	
+                                                                                    
+
                                                                                         73.33
-                                                                                    	
+                                                                                    
+
+                                                                                        Midterm
+                                                                                    
+
+                                                                                        60.0
+                                                                                    
+
+                                                                                        45.00
+                                                                                    
+
+                                                                                        41.62
+                                                                                    
+
+                                                                                        75.00
+                                                                                    
+
+                                                                                        Midterm-CLO-I
+                                                                                    
+
+                                                                                        30.0
+                                                                                    
+
+                                                                                        23.00
+                                                                                    
+
+                                                                                        21.89
+                                                                                    
+
+                                                                                        76.67
+                                                                                    
+
 
                                                                                     Assignment
                                                                                 
-	
-	
+
+
+
+Assessment
+Max Mark
+Obtained Marks
+Class Average
+Percentage
+
                                                                                         Assignment-I
-                                                                                    	
+                                                                                    
+
                                                                                         10.0
-                                                                                    	
+                                                                                    
+
                                                                                         0.00
-                                                                                    	
+                                                                                    
+
                                                                                         0.00
-                                                                                    	
+                                                                                    
+
                                                                                         0.00
-                                                                                    	
+                                                                                    
+
 
                                                                                     Quiz
                                                                                 
-	
-	
+
+
+
+Assessment
+Max Mark
+Obtained Marks
+Class Average
+Percentage
+
                                                                                         Quiz-II
-                                                                                    	
+                                                                                    
+
                                                                                         10.0
-                                                                                    	
+                                                                                    
+
                                                                                         5.00
-                                                                                    	
+                                                                                    
+
                                                                                         5.93
-                                                                                    	
+                                                                                    
+
                                                                                         50.00
-                                                                                    	
-                                                                                        Quiz-I
-                                                                                    	
-                                                                                        10.0
-                                                                                    	
-                                                                                        8.50
-                                                                                    	
-                                                                                        6.66
-                                                                                    	
-                                                                                        85.00
-                                                                                    	
+                                                                                    
+
                                                                                         Quiz-III
-                                                                                    	
+                                                                                    
+
                                                                                         10.0
-                                                                                    	
+                                                                                    
+
                                                                                         6.50
-                                                                                    	
+                                                                                    
+
                                                                                         5.65
-                                                                                    	
+                                                                                    
+
                                                                                         65.00
-                                                                                    	
+                                                                                    
+
+                                                                                        Quiz-I
+                                                                                    
+
+                                                                                        10.0
+                                                                                    
+
+                                                                                        8.50
+                                                                                    
+
+                                                                                        6.66
+                                                                                    
+
+                                                                                        85.00
+                                                                                    
