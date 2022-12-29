@@ -191,8 +191,8 @@ def lms_scrape(luser, lpass):
 
     LMSsession.close()
     driver.close()
-username='mkaleem.bscs22seecs'
-password='4IE8bhkp1234!@#$'
+username='USER'
+password='PASS'
 luser='USER'
 lpass='PASS'
 login_and_scrape(username, password)
