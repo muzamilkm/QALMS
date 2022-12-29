@@ -118,8 +118,8 @@ def login_and_scrape(username, password):
             for element in elements:
                 attd_data.append(element.get_text())
             #Iterate over the elements of the list
-                for element in attd_data:
-                    f.write(element +"\n")
+            for element in attd_data:
+                f.write(element +"\n")
     f.close()         
     #  Close the session
     session.close()
@@ -191,8 +191,8 @@ def lms_scrape(luser, lpass):
 
     LMSsession.close()
     driver.close()
-username='USER'
-password='PASS'
+username='mkaleem.bscs22seecs'
+password='4IE8bhkp1234!@#$'
 luser='USER'
 lpass='PASS'
 login_and_scrape(username, password)

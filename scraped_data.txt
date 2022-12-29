@@ -827,6 +827,21 @@ Obtained Marks
 Class Average
 Percentage
 
+                                                                                        Quiz-I
+                                                                                    
+
+                                                                                        10.0
+                                                                                    
+
+                                                                                        8.50
+                                                                                    
+
+                                                                                        6.66
+                                                                                    
+
+                                                                                        85.00
+                                                                                    
+
                                                                                         Quiz-II
                                                                                     
 
@@ -855,19 +870,4 @@ Percentage
                                                                                     
 
                                                                                         65.00
-                                                                                    
-
-                                                                                        Quiz-I
-                                                                                    
-
-                                                                                        10.0
-                                                                                    
-
-                                                                                        8.50
-                                                                                    
-
-                                                                                        6.66
-                                                                                    
-
-                                                                                        85.00
                                                                                     
